@@ -68,3 +68,38 @@
   color: #333333;
   margin-bottom: 40px;
 }
+
+.items {
+  margin-top: 66px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 100px;
+}
+
+.item {
+  width: 328px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-icon {
+  margin-right: 14px;
+}
+
+.item-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.item-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #b6b6b6;
+}
